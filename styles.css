@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(12, 73, 53);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+
+    
+}
+
+ p {
+    margin: 1em auto;
+    text-align: center;
+    animation-name: p;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+h1 {
+    margin: 1em auto;
+    text-align: center;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+}
+form {
+    width: 60vh;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    color: black;
+
+}
+label {
+    margin: 0.5rem 0;
+    display: block;
+}
+
+@keyframes h1  {
+0% {
+    transform: translateX(-180px);
+}
+100% {
+   transform: 0%; 
+}
+}
+@keyframes p  {
+    0% {
+        transform: translateX(180px);
+    }
+    100% {
+       transform: 0%; 
+    }
+    }
+    input, textarea {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: black;
+    }
+    
+    .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+        
+    }
+    input[type="submit"] {
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 2em;
+font-size: 1.1em;
+background-color: #3b3b4f;
+border-color: #fff;
+min-width: 300px;
+    }
+
+    fieldset:last-of-type {
+        border-bottom: none;
+    }
+    input[type="file"] {
+        padding: 1px 2px;
+    }
+    a {
+        color: #dfdfe2;
+        text-align: center;
+    }
+.button {
+    display: inline-block;
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px #ffff solid;
+    margin-top: 30px;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 0.5s; 
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 1s;
+
+}
+.button:hover {
+    background-color: #fff;
+    color: black;
+}
+@keyframes button  {
+    0% {
+        transform: translateX(180px);
+    }
+    100% {
+       transform: 0%; 
+    }
+    }
