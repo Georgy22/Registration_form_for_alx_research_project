@@ -13,7 +13,7 @@
 }
 html {
     margin: 0;
-    overflow: hidden;
+    overflow -y: scroll;
 }
 body {
     width: 100%;
