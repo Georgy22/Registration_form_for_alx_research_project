@@ -1,11 +1,11 @@
 
 * {
     margin: 0;
-    padding: 5px 2px;
+    padding: 0;
 
 html {
     margin: 0;
-    background-clip: padding-box;
+    
 }
 body {
     width: 100%;
