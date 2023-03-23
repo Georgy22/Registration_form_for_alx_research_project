@@ -1,7 +1,26 @@
 * {
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
+
+/* Mobile View */
+@media screen and (max-width: 1080px){
+	body {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+/* Desktop  View */
+@media screen and (max-width: 1400px){
+	body {
+		width: 1080px;
+		height: auto;
+		display: block;
+	}
+}
+
 html {
     margin: 0;
 }
