@@ -2,10 +2,10 @@
 * {
     margin: 0;
     padding: 5px 2px;
-}
+
 html {
     margin: 0;
-   
+    background-clip: padding-box;
 }
 body {
     width: 100%;
