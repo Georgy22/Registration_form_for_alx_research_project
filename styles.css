@@ -39,7 +39,7 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin:  0 auto;
-    padding-bottom: 2rem;
+    padding: 0 5% 2rem 5%;
 }
 h1 {
     margin: 1em auto;
@@ -59,13 +59,13 @@ fieldset {
     border-bottom: 3px solid #3b3b4f;
 }
 input, textarea, select {
-    margin: 10px 0 0 5%;
-    width: 80%;
+    margin: 10px 0 0 0;
+    width: 100%;
     min-height: 2em;
     color: black;
 }
 label {
-    margin: 0.5rem 0 0.5rem 15%;
+    margin: 0.5rem 0 0.5rem 0;
     display: block;
   
 }
