@@ -52,10 +52,6 @@ h1 {
 p {
     margin: 1em auto;
     text-align: center;
-    animation-name: p;
-    animation-duration: 2.5s;
-    animation-iteration-count: 1;
-    animation-delay: 1s;  
 }
 fieldset {
     border: none;
@@ -64,7 +60,7 @@ fieldset {
 }
 input, textarea, select {
     margin: 10px 0 0 0;
-    width: 100%;
+    width: 80%;
     min-height: 2em;
     color: black;
 }
@@ -81,15 +77,8 @@ label {
        transform: 0%; 
     }
     }
-    @keyframes p  {
-        0% {
-            transform: translateX(180px);
-        }
-        100% {
-           transform: 0%; 
-        }
-        }
-        input, textarea {
+   
+ input, textarea {
             background-color: #fff;
             border: 1px solid #fff;
             color: black;
