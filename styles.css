@@ -67,6 +67,7 @@ input, textarea, select {
 label {
     margin: 0.5rem 0 0.5rem 5%;
     display: block;
+    text-align: center;
 }
 
 @keyframes h1  {
